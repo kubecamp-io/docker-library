@@ -7,6 +7,9 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 # Template from: https://github.com/ManageIQ/guides/blob/master/labels.md
 labels:
+  - name: bug
+    color: '#d73a4a'
+    description: Something isn't working.
   - name: documentation
     color: '#d4c5f9'
     description: Changes that only affect documentation.
