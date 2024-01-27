@@ -5,10 +5,22 @@ repository:
   delete_branch_on_merge: true
 
 # Labels: define labels for Issues and Pull Requests
-# labels:
-#   - name: bug
-#     color: CC0000
-#     description: An issue with the system.
+labels:
+  - name: dependencies
+    color: '#b4a8d1'
+    description: Changes that affect dependencies.
+  - name: cleanup
+    color: '#fef2c0'
+    description: Changes only making the code cleaner and that do not change how the code works nor the outputs produced.
+  - name: refactoring
+    color: '#fbca04'
+    description: Changes in the way the code works internally without changing the output produced.
+  - name: tools
+    color: '#bcf5db'
+    description: Changes to customer-facing tools.
+  - name: developer
+    color: '#bcf5db'
+    description: Changes that affect developers only, including non-customer-facing tools.
 
 # Collaborators: give specific users access to this repository.
 # See https://docs.github.com/en/rest/reference/repos#add-a-repository-collaborator for available options
