@@ -21,7 +21,7 @@ labels:
     description: Changes that affect dependencies.
   - name: cleanup
     color: '#fef2c0'
-    description: Changes only making the code cleaner and that do not change how the code works nor the outputs produced.
+    description: Changes only making the code cleaner and not the outputs produced.
   - name: refactoring
     color: '#fbca04'
     description: Changes in the way the code works internally without changing the output produced.
